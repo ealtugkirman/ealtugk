@@ -9,7 +9,7 @@ function Header() {
         <div className='flex justify-between items-center'>
           {/* Logo */}
           <a href="/#">
-            <img src={Logo} className="w-60" alt="" />
+            <img src={Logo} className="w-48 lg:w-60" alt="" />
           </a>
           <button className='btn btn-sm'>Work With me</button>
         </div>

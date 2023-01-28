@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='section'>About</div>
+    <div id='about' className='section'>About</div>
   )
 }
 

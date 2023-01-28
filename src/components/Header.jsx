@@ -8,7 +8,7 @@ function Header() {
       <div className='container mx-auto' >
         <div className='flex justify-between items-center'>
           {/* Logo */}
-          <a href="#">
+          <a href="/#">
             <img src={Logo} className="w-60" alt="" />
           </a>
           <button className='btn btn-sm'>Work With me</button>

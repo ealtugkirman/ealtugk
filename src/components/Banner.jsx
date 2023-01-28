@@ -42,13 +42,13 @@ function Banner() {
           </motion.div>
           {/* socials */}
           <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0' >
-            <a href="">
+            <a href="/#">
               <FaYoutube />
             </a>
-            <a href="">
+            <a href="/#">
               <FaGithub />
             </a>
-            <a href="">
+            <a href="/#">
               <FaDribbble />
             </a>
           </motion.div>

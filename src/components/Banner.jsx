@@ -24,8 +24,8 @@ function Banner() {
               2000,
               'Designer',
               2000,
-              // 'Youtuber',
-              // 2000,
+              'Web Developer',
+              2000,
             ]}
             speed={50}
             className="text-accent"

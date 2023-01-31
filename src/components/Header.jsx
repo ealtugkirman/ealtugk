@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from "../assets/ealtugk-no-bg.png";
+import { Link } from 'react-scroll'
 
 
 function Header() {
@@ -9,9 +10,11 @@ function Header() {
         <div className='flex justify-between items-center'>
           {/* Logo */}
           <a href="/#">
-            <img src={Logo} className="w-48 lg:w-60" alt="" />
+            <img src={Logo} className="w-36 lg:w-60" alt="" />
           </a>
+          <Link to="contact">
           <button className='btn btn-sm'>Work With me</button>
+          </Link>
         </div>
       </div>
     </div>

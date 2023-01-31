@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import { Link } from 'react-scroll'
 
 const About = () => {
 
@@ -20,16 +21,17 @@ const About = () => {
           <motion.div variants={fadeIn('left', 0.5)} initial="hidden" whileInView={"show"} viewport={{once:false, amount: 0.3}} className='flex-1'>
             <h2 className='h2 text-accent'>About me</h2>
             <h3 className='h3 mb-4'>
-              I'm a freelancer Front-end with Lorem ipsum dolor sit amet.
+              I'm a freelancer Front-end Developer, Web Developer, Designer.
             </h3>
             <p className='mb-6'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel natus possimus asperiores cupiditate, ipsum at! Harum vel eligendi aspernatur labore!
+            As a freelance web designer, I have honed my skills in creating websites that are both aesthetically pleasing and functional. I made the leap to become a freelance web designer, allowing me to work with a wider range of clients and bring their unique visions to life. With a strong focus on clean, modern design and a deep understanding of user experience, I aim to create websites that are not only visually appealing, but also easy to navigate and use.
+Whether you are looking to establish a new online presence or refresh your existing website, I am here to help. Let's work together to make your dream website a reality.
             </p>
             {/* stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br />
@@ -39,7 +41,7 @@ const About = () => {
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={15} duration={3} /> : null}
-                  k+
+                  
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Projects <br />
@@ -49,7 +51,6 @@ const About = () => {
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ? <CountUp start={0} end={12} duration={3} /> : null}
-                  k+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Satisfied <br />
@@ -58,8 +59,12 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
+              <Link to="contact">
             <button className='btn btn-lg'>Contact me</button>
+            </Link>
+            <Link to="work">
             <a href="/#" className='text-gradient btn-link'>My Portfolio</a>
+            </Link>
             </div>
           </motion.div>
         </div>

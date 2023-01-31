@@ -2,26 +2,27 @@ import React from 'react'
 import { BsArrowUpRight, } from 'react-icons/bs'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
+import { Link } from 'react-scroll'
 
 const services = [
   {
     name: 'UI/UX Design',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ecusandae. Tempore ad repellat esse?',
+    description: 'I create user-friendly and visually appealing interfaces that meet your goals. My focus is on user experience and design principles.',
     link: 'Learn More'
   },
   {
     name: 'Development',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ecusandae. Tempore ad repellat esse?',
+    description: 'I bring your website to life with efficient, optimized code. I offer full-service web development fast, secure, and search engine friendly.',
     link: 'Learn More'
   },
   {
     name: 'Digital Marketing',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ecusandae. Tempore ad repellat esse?',
+    description: 'I offer digital marketing services to help you reach your target audience and achieve your goals. I develop custom strategies for search engine optimization, social media, and pay-per-click advertising.',
     link: 'Learn More'
   },
   {
     name: 'Product Branding',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ecusandae. Tempore ad repellat esse?',
+    description: 'I create unique and consistent visual identities that accurately reflect your brand. I offer product branding services to help you launch or rebrand your product effectively.',
     link: 'Learn More'
   },
 ]
@@ -35,8 +36,10 @@ function Services() {
           {/* text and image */}
           <motion.div variants={fadeIn('right', 0.3)} initial="hidden" whileInView={"show"} viewport={{once:false, amount: 0.3}} className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0' >
           <h2 className='h2 text-accent mb-6'>What i do</h2>
-          <h3 className='h3 max-w[455px] mb-16'>I'm a freelancer Front-end with Lorem ipsum dolor sit amet.</h3>
+          <h3 className='h3 max-w[455px] mb-16'>I'm a  <br /> freelancer</h3>
+          <Link to="work">
           <button className='btn btn-sm' > See my Work</button>
+          </Link>
           </motion.div>
           {/* services */}
           <motion.div variants={fadeIn('left', 0.5)} initial="hidden" whileInView={"show"} viewport={{once:false, amount: 0.3}} className='flex-1 '>
@@ -51,12 +54,12 @@ function Services() {
                       <p className='font-secondary leading-tight'>{description}</p>
                     </div>
                     <div className='flex flex-col flex-1 items-end'>
-                      <a href="/#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                      <Link to='contact'   className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowUpRight />
-                      </a>
-                      <a href="/#"className='text-gradient text-sm' >
+                        </Link>
+                      <Link to='contact'   className='text-gradient text-sm'>
                         {link}
-                        </a>
+                      </Link>
                     </div>
                   </div>
                 )

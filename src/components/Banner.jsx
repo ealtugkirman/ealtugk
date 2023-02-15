@@ -23,6 +23,8 @@ function Banner() {
               <TypeAnimation sequence={[
                 'Developer',
                 2000,
+                'Shopify Developer',
+                2000,
                 'Designer',
                 2000,
                 'Web Developer',

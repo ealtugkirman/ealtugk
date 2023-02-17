@@ -6,7 +6,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
-import Contact from './components/Contact';
+import { ContactUs } from './components/ContactUs';
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
       <About />
       <Services />
       <Work />
-      <Contact />
+      <ContactUs />
     </div>
   );
 };

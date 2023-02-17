@@ -74,3 +74,22 @@
 .error {
   color: red;
 }
+
+input[type="text"] {
+ 
+  background-color: transparent;
+}
+
+
+input:focus {
+  outline: none;
+  
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+  -webkit-text-fill-color: #333 !important;
+  background-color: transparent !important;
+}
+
+

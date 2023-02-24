@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
-import Img1 from "../assets/port-1.jpg"
-import Img3 from "../assets/port-f.jpg"
+import Img1 from "../assets/port-f.jpg"
+import Img3 from "../assets/batikent.svg"
 import Img2 from "../assets/port-3.jpg"
 
 
@@ -33,8 +33,8 @@ function Work() {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <a href="https://admirable-puffpuff-ee0d6a.netlify.app/" target="_blank" rel="noreferrer">
-                  <span className='text-3xl text-white'>Al2 Movie Site UX</span>
+                <a href="http://kanyewestquotes.com/" target="_blank" rel="noreferrer">
+                  <span className='text-3xl text-white'>Kanye West Quotes</span>
                 </a>
               </div>
             </div>
@@ -64,8 +64,8 @@ function Work() {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <a href="http://kanyewestquotes.com/" target="_blank" rel="noreferrer">
-                  <span className='text-3xl text-white'>Kanye West Quotes</span>
+                <a href="https://xn--batkentmzik-0hb79d.com/" target="_blank" rel="noreferrer">
+                  <span className='text-3xl text-white'>Batıkent Müzik</span>
                 </a>
               </div>
             </div>

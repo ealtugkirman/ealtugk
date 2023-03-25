@@ -10,7 +10,7 @@ import { ContactUs } from './components/ContactUs';
 
 const App = () => {
   return (
-    <div className='bg-site bg-no-repeat pr-20 pl-20 bg-cover overflow-hidden'>
+    <div className='bg-site bg-no-repeat lg:pr-20 lg:pl-20 bg-cover overflow-hidden'>
       <Header />
       <Banner />
       <Nav />

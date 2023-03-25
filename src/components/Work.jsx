@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
 import Img1 from "../assets/port-f.jpg"
 import Img3 from "../assets/batikent.svg"
-import Img2 from "../assets/port-3.jpg"
+import sohho from "../assets/sohho.jpg"
 
 
 function Work() {
@@ -43,14 +43,14 @@ function Work() {
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-              <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
+              <img className='group-hover:scale-125 transition-all duration-500' src={sohho} alt="" />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50' >
                 <span className='text-gradient'> UI/UX Design </span> </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <a href="https://coalunion.io" target="_blank" rel="noreferrer">
-                  <span className='text-3xl text-white'>CoalUnion.io</span>
+                <a href="https://sohho.xyz" target="_blank" rel="noreferrer">
+                  <span className='text-3xl text-white'>Sohho Night Club</span>
                 </a>
               </div>
             </div>

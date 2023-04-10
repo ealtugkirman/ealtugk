@@ -47,7 +47,10 @@ function Work() {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <a href="http://tecvity.co/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://admirable-centaur-3bad3c.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer">
                   <span className="text-3xl text-white">Tecvity.co</span>
                 </a>
               </div>

@@ -5,6 +5,7 @@ import Img3 from "../assets/bahadir.jpg";
 import Img1 from "../assets/port-f.jpg";
 import sohho from "../assets/sohho.jpg";
 import tecvity from "../assets/tecvity.jpg";
+import coal from "../assets/port-2.jpg";
 
 function Work() {
   return (
@@ -41,7 +42,10 @@ function Work() {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <a href="https:/tecvity.co/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://admirable-centaur-3bad3c.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer">
                   <span className="text-gradient"> Web Development </span>
                 </a>
               </div>
@@ -59,7 +63,7 @@ function Work() {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={sohho}
+                src={coal}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -130,7 +134,7 @@ function Work() {
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <a
-                  href="https://admirable-puffpuff-ee0d6a.netlify.app/"
+                  href="http://kanyewestquotes.com/"
                   target="_blank"
                   rel="noreferrer">
                   <span className="text-gradient"> UI/UX Design </span>

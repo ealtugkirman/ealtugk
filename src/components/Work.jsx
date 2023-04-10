@@ -2,8 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Img3 from "../assets/bahadir.jpg";
+import Img1 from "../assets/port-f.jpg";
 import sohho from "../assets/sohho.jpg";
-import tecvity from "../assets/tecvity.jpg"
+import tecvity from "../assets/tecvity.jpg";
 
 function Work() {
   return (
@@ -40,20 +41,30 @@ function Work() {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <a
-                  href="https:/tecvity.co/"
-                  target="_blank"
-                  rel="noreferrer">
+                <a href="https:/tecvity.co/" target="_blank" rel="noreferrer">
                   <span className="text-gradient"> Web Development </span>
                 </a>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <a
-                  href="http://tecvity.co/"
-                  target="_blank"
-                  rel="noreferrer">
+                <a href="http://tecvity.co/" target="_blank" rel="noreferrer">
                   <span className="text-3xl text-white">Tecvity.co</span>
+                </a>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <img
+                className="group-hover:scale-125 transition-all duration-500"
+                src={sohho}
+                alt=""
+              />
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient"> UI/UX Design </span>{" "}
+              </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <a href="https://coalunion.io" target="_blank" rel="noreferrer">
+                  <span className="text-3xl text-white">CoalUnion.io</span>
                 </a>
               </div>
             </div>
@@ -102,6 +113,33 @@ function Work() {
                   target="_blank"
                   rel="noreferrer">
                   <span className="text-3xl text-white">Batıkent Müzik</span>
+                </a>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+              {/* overlay */}
+              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <img
+                className="group-hover:scale-125 transition-all duration-500"
+                src={Img1}
+                alt=""
+              />
+              {/* pretitle */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <a
+                  href="https://admirable-puffpuff-ee0d6a.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer">
+                  <span className="text-gradient"> UI/UX Design </span>
+                </a>
+              </div>
+              {/* title */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <a
+                  href="http://kanyewestquotes.com/"
+                  target="_blank"
+                  rel="noreferrer">
+                  <span className="text-3xl text-white">Kanye West Quotes</span>
                 </a>
               </div>
             </div>

@@ -20,13 +20,13 @@ const services = [
     link: "Learn More",
   },
   {
-    name: "Digital Marketing",
+    name: "Custom React App",
     description:
-      "I offer digital marketing services to help you reach your target audience and achieve your goals. I develop custom strategies for search engine optimization, social media, and pay-per-click advertising.",
+      "I offer React Apps to help you reach your target audience and achieve your goals. I develop custom React Apps for what you need.",
     link: "Learn More",
   },
   {
-    name: "Product Branding",
+    name: "Web Design",
     description:
       "I create unique and consistent visual identities that accurately reflect your brand. I offer product branding services to help you launch or rebrand your product effectively.",
     link: "Learn More",
